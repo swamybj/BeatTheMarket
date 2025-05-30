@@ -1,0 +1,577 @@
+{
+  "timestamp": "2025-05-30T11:35:20.023743",
+  "data": {
+    "FAANG": {
+      "META": {
+        "name": "Meta Platforms, Inc.",
+        "sector": "Communication Services",
+        "industry": "Internet Content & Information",
+        "market_cap": 1621868544000,
+        "current_price": 645.0499877929688,
+        "change_percent": 0.22840527426130328,
+        "volume": 8858800,
+        "pe_ratio": 25.496048
+      },
+      "AAPL": {
+        "name": "Apple Inc.",
+        "sector": "Technology",
+        "industry": "Consumer Electronics",
+        "market_cap": 2986413129728,
+        "current_price": 199.9499969482422,
+        "change_percent": -0.23450814539322293,
+        "volume": 51396800,
+        "pe_ratio": 24.06137
+      },
+      "AMZN": {
+        "name": "Amazon.com, Inc.",
+        "sector": "Consumer Cyclical",
+        "industry": "Internet Retail",
+        "market_cap": 2183793475584,
+        "current_price": 205.6999969482422,
+        "change_percent": 0.4787005283780531,
+        "volume": 34650000,
+        "pe_ratio": 33.447155
+      },
+      "NFLX": {
+        "name": "Netflix, Inc.",
+        "sector": "Communication Services",
+        "industry": "Entertainment",
+        "market_cap": 504242044928,
+        "current_price": 1184.8599853515625,
+        "change_percent": -1.9602054130512556,
+        "volume": 3300700,
+        "pe_ratio": 49.8259
+      },
+      "GOOGL": {
+        "name": "Alphabet Inc.",
+        "sector": "Communication Services",
+        "industry": "Internet Content & Information",
+        "market_cap": 2091484708864,
+        "current_price": 171.86000061035156,
+        "change_percent": -0.29009050721131824,
+        "volume": 29317300,
+        "pe_ratio": 19.180803
+      }
+    },
+    "Tech Giants": {
+      "MSFT": {
+        "name": "Microsoft Corporation",
+        "sector": "Technology",
+        "industry": "Software - Infrastructure",
+        "market_cap": 3409157554176,
+        "current_price": 458.67999267578125,
+        "change_percent": 0.2886145195242845,
+        "volume": 13974800,
+        "pe_ratio": 30.680937
+      },
+      "NVDA": {
+        "name": "NVIDIA Corporation",
+        "sector": "Technology",
+        "industry": "Semiconductors",
+        "market_cap": 3394510258176,
+        "current_price": 139.19000244140625,
+        "change_percent": 3.2490208160628273,
+        "volume": 369241900,
+        "pe_ratio": 33.78398
+      },
+      "ORCL": {
+        "name": "Oracle Corporation",
+        "sector": "Technology",
+        "industry": "Software - Infrastructure",
+        "market_cap": 456809021440,
+        "current_price": 162.89999389648438,
+        "change_percent": -0.5798060248048207,
+        "volume": 6994700,
+        "pe_ratio": 22.751396
+      },
+      "CRM": {
+        "name": "Salesforce, Inc.",
+        "sector": "Technology",
+        "industry": "Software - Application",
+        "market_cap": 255175540736,
+        "current_price": 266.9200134277344,
+        "change_percent": -3.300360610024311,
+        "volume": 28053100,
+        "pe_ratio": 23.98203
+      },
+      "ADBE": {
+        "name": "Adobe Inc.",
+        "sector": "Technology",
+        "industry": "Software - Application",
+        "market_cap": 176174022656,
+        "current_price": 413.3599853515625,
+        "change_percent": 0.27411259130084326,
+        "volume": 1780400,
+        "pe_ratio": 20.114841
+      }
+    },
+    "Finance": {
+      "JPM": {
+        "name": "JPMorgan Chase & Co.",
+        "sector": "Financial Services",
+        "industry": "Banks - Diversified",
+        "market_cap": 734707974144,
+        "current_price": 264.3699951171875,
+        "change_percent": 0.33398038461716645,
+        "volume": 5081200,
+        "pe_ratio": 15.792712
+      },
+      "BAC": {
+        "name": "Bank of America Corporation",
+        "sector": "Financial Services",
+        "industry": "Banks - Diversified",
+        "market_cap": 333210386432,
+        "current_price": 44.2400016784668,
+        "change_percent": 0.4085344974249063,
+        "volume": 28545100,
+        "pe_ratio": 12.087432
+      },
+      "GS": {
+        "name": "The Goldman Sachs Group, Inc.",
+        "sector": "Financial Services",
+        "industry": "Capital Markets",
+        "market_cap": 185595838464,
+        "current_price": 604.8599853515625,
+        "change_percent": -0.5883927873707665,
+        "volume": 1736100,
+        "pe_ratio": 14.553897
+      },
+      "MS": {
+        "name": "Morgan Stanley",
+        "sector": "Financial Services",
+        "industry": "Capital Markets",
+        "market_cap": 205609664512,
+        "current_price": 128.16000366210938,
+        "change_percent": 0.5097651282167268,
+        "volume": 4337500,
+        "pe_ratio": 16.161413
+      },
+      "WFC": {
+        "name": "Wells Fargo & Company",
+        "sector": "Financial Services",
+        "industry": "Banks - Diversified",
+        "market_cap": 242468962304,
+        "current_price": 74.51000213623047,
+        "change_percent": 1.0579123067726317,
+        "volume": 14016600,
+        "pe_ratio": 13.57195
+      }
+    },
+    "Healthcare": {
+      "JNJ": {
+        "name": "Johnson & Johnson",
+        "sector": "Healthcare",
+        "industry": "Drug Manufacturers - General",
+        "market_cap": 369524244480,
+        "current_price": 153.5800018310547,
+        "change_percent": 0.7544507055901446,
+        "volume": 6810600,
+        "pe_ratio": 14.488679
+      },
+      "UNH": {
+        "name": "UnitedHealth Group Incorporated",
+        "sector": "Healthcare",
+        "industry": "Healthcare Plans",
+        "market_cap": 270481932288,
+        "current_price": 298.1700134277344,
+        "change_percent": 0.02013621787981493,
+        "volume": 16221100,
+        "pe_ratio": 9.972241
+      },
+      "PFE": {
+        "name": "Pfizer Inc.",
+        "sector": "Healthcare",
+        "industry": "Drug Manufacturers - General",
+        "market_cap": 133321924608,
+        "current_price": 23.450000762939453,
+        "change_percent": 1.1647991984857067,
+        "volume": 26091400,
+        "pe_ratio": 8.003413
+      },
+      "ABT": {
+        "name": "Abbott Laboratories",
+        "sector": "Healthcare",
+        "industry": "Medical Devices",
+        "market_cap": 231137755136,
+        "current_price": 132.85000610351562,
+        "change_percent": 0.6286939889365115,
+        "volume": 3078200,
+        "pe_ratio": 25.746126
+      },
+      "MRK": {
+        "name": "Merck & Co., Inc.",
+        "sector": "Healthcare",
+        "industry": "Drug Manufacturers - General",
+        "market_cap": 191842697216,
+        "current_price": 76.4000015258789,
+        "change_percent": 0.3019605651341169,
+        "volume": 10785200,
+        "pe_ratio": 8.12766
+      }
+    },
+    "Semiconductors": {
+      "NVDA": {
+        "name": "NVIDIA Corporation",
+        "sector": "Technology",
+        "industry": "Semiconductors",
+        "market_cap": 3394510258176,
+        "current_price": 139.19000244140625,
+        "change_percent": 3.2490208160628273,
+        "volume": 369241900,
+        "pe_ratio": 33.78398
+      },
+      "AMD": {
+        "name": "Advanced Micro Devices, Inc.",
+        "sector": "Technology",
+        "industry": "Semiconductors",
+        "market_cap": 183266852864,
+        "current_price": 113.02999877929688,
+        "change_percent": 0.15062747477047259,
+        "volume": 30501400,
+        "pe_ratio": 22.162745
+      },
+      "INTC": {
+        "name": "Intel Corporation",
+        "sector": "Technology",
+        "industry": "Semiconductors",
+        "market_cap": 88330493952,
+        "current_price": 20.25,
+        "change_percent": -0.5891057157065612,
+        "volume": 66372200,
+        "pe_ratio": 20.876287
+      },
+      "TSM": {
+        "name": "Taiwan Semiconductor Manufacturing Company Limited",
+        "sector": "Technology",
+        "industry": "Semiconductors",
+        "market_cap": 1022522425344,
+        "current_price": 197.14999389648438,
+        "change_percent": 0.5149355103389693,
+        "volume": 14609900,
+        "pe_ratio": 24.399752
+      },
+      "QCOM": {
+        "name": "QUALCOMM Incorporated",
+        "sector": "Technology",
+        "industry": "Semiconductors",
+        "market_cap": 162877308928,
+        "current_price": 148.33999633789062,
+        "change_percent": 0.5013483765414116,
+        "volume": 5980700,
+        "pe_ratio": 12.12919
+      }
+    },
+    "REITs": {
+      "AMT": {
+        "name": "American Tower Corporation",
+        "sector": "Real Estate",
+        "industry": "REIT - Specialty",
+        "market_cap": 100045774848,
+        "current_price": 213.7100067138672,
+        "change_percent": 0.5883460230157345,
+        "volume": 1790600,
+        "pe_ratio": 31.474228
+      },
+      "PLD": {
+        "name": "Prologis, Inc.",
+        "sector": "Real Estate",
+        "industry": "REIT - Industrial",
+        "market_cap": 101357363200,
+        "current_price": 109.2300033569336,
+        "change_percent": 1.2138669479381476,
+        "volume": 4585600,
+        "pe_ratio": 31.031252
+      },
+      "CCI": {
+        "name": "Crown Castle Inc.",
+        "sector": "Real Estate",
+        "industry": "REIT - Specialty",
+        "market_cap": 43698311168,
+        "current_price": 100.3499984741211,
+        "change_percent": 0.7125643203751543,
+        "volume": 1811300,
+        "pe_ratio": 37.444027
+      },
+      "EQIX": {
+        "name": "Equinix, Inc.",
+        "sector": "Real Estate",
+        "industry": "REIT - Specialty",
+        "market_cap": 86807511040,
+        "current_price": 887.4299926757812,
+        "change_percent": 0.7733185251701578,
+        "volume": 290600,
+        "pe_ratio": 66.32511
+      },
+      "SPG": {
+        "name": "Simon Property Group, Inc.",
+        "sector": "Real Estate",
+        "industry": "REIT - Retail",
+        "market_cap": 61560397824,
+        "current_price": 163.22999572753906,
+        "change_percent": 1.2530171388536495,
+        "volume": 1337300,
+        "pe_ratio": 24.07522
+      }
+    },
+    "Consumer Discretionary": {
+      "AMZN": {
+        "name": "Amazon.com, Inc.",
+        "sector": "Consumer Cyclical",
+        "industry": "Internet Retail",
+        "market_cap": 2183793475584,
+        "current_price": 205.6999969482422,
+        "change_percent": 0.4787005283780531,
+        "volume": 34650000,
+        "pe_ratio": 33.447155
+      },
+      "TSLA": {
+        "name": "Tesla, Inc.",
+        "sector": "Consumer Cyclical",
+        "industry": "Auto Manufacturers",
+        "market_cap": 1154488729600,
+        "current_price": 358.42999267578125,
+        "change_percent": 0.42869117552874975,
+        "volume": 88087800,
+        "pe_ratio": 110.62654
+      },
+      "HD": {
+        "name": "The Home Depot, Inc.",
+        "sector": "Consumer Cyclical",
+        "industry": "Home Improvement Retail",
+        "market_cap": 366422032384,
+        "current_price": 368.2900085449219,
+        "change_percent": 0.062492796786890195,
+        "volume": 3034800,
+        "pe_ratio": 23.608334
+      },
+      "MCD": {
+        "name": "McDonald's Corporation",
+        "sector": "Consumer Cyclical",
+        "industry": "Restaurants",
+        "market_cap": 222990188544,
+        "current_price": 311.8599853515625,
+        "change_percent": -0.3132626894898822,
+        "volume": 2248800,
+        "pe_ratio": 24.731165
+      },
+      "NKE": {
+        "name": "NIKE, Inc.",
+        "sector": "Consumer Cyclical",
+        "industry": "Footwear & Accessories",
+        "market_cap": 90684825600,
+        "current_price": 61.439998626708984,
+        "change_percent": -0.5503401736903696,
+        "volume": 12218000,
+        "pe_ratio": 19.021671
+      }
+    },
+    "Consumer Staples": {
+      "PG": {
+        "name": "The Procter & Gamble Company",
+        "sector": "Consumer Defensive",
+        "industry": "Household & Personal Products",
+        "market_cap": 395195645952,
+        "current_price": 168.55999755859375,
+        "change_percent": 0.717015382329035,
+        "volume": 4842500,
+        "pe_ratio": 22.71698
+      },
+      "KO": {
+        "name": "The Coca-Cola Company",
+        "sector": "Consumer Defensive",
+        "industry": "Beverages - Non-Alcoholic",
+        "market_cap": 307712229376,
+        "current_price": 71.48999786376953,
+        "change_percent": 0.4778585110317397,
+        "volume": 10291100,
+        "pe_ratio": 24.070705
+      },
+      "PEP": {
+        "name": "PepsiCo, Inc.",
+        "sector": "Consumer Defensive",
+        "industry": "Beverages - Non-Alcoholic",
+        "market_cap": 180872855552,
+        "current_price": 131.9199981689453,
+        "change_percent": 0.9566082631943218,
+        "volume": 6656900,
+        "pe_ratio": 15.28621
+      },
+      "WMT": {
+        "name": "Walmart Inc.",
+        "sector": "Consumer Defensive",
+        "industry": "Discount Stores",
+        "market_cap": 776886419456,
+        "current_price": 97.0999984741211,
+        "change_percent": -0.14397304887292642,
+        "volume": 14338000,
+        "pe_ratio": 35.69853
+      },
+      "COST": {
+        "name": "Costco Wholesale Corporation",
+        "sector": "Consumer Defensive",
+        "industry": "Discount Stores",
+        "market_cap": 447560777728,
+        "current_price": 1008.739990234375,
+        "change_percent": -0.4342957883851149,
+        "volume": 2016700,
+        "pe_ratio": 51.257114
+      }
+    },
+    "Top 5 Large Cap": {
+      "AAPL": {
+        "name": "Apple Inc.",
+        "sector": "Technology",
+        "industry": "Consumer Electronics",
+        "market_cap": 2986413129728,
+        "current_price": 199.9499969482422,
+        "change_percent": -0.23450814539322293,
+        "volume": 51396800,
+        "pe_ratio": 24.06137
+      },
+      "MSFT": {
+        "name": "Microsoft Corporation",
+        "sector": "Technology",
+        "industry": "Software - Infrastructure",
+        "market_cap": 3409157554176,
+        "current_price": 458.67999267578125,
+        "change_percent": 0.2886145195242845,
+        "volume": 13974800,
+        "pe_ratio": 30.680937
+      },
+      "GOOGL": {
+        "name": "Alphabet Inc.",
+        "sector": "Communication Services",
+        "industry": "Internet Content & Information",
+        "market_cap": 2091484708864,
+        "current_price": 171.86000061035156,
+        "change_percent": -0.29009050721131824,
+        "volume": 29317300,
+        "pe_ratio": 19.180803
+      },
+      "AMZN": {
+        "name": "Amazon.com, Inc.",
+        "sector": "Consumer Cyclical",
+        "industry": "Internet Retail",
+        "market_cap": 2183793475584,
+        "current_price": 205.6999969482422,
+        "change_percent": 0.4787005283780531,
+        "volume": 34650000,
+        "pe_ratio": 33.447155
+      },
+      "NVDA": {
+        "name": "NVIDIA Corporation",
+        "sector": "Technology",
+        "industry": "Semiconductors",
+        "market_cap": 3394510258176,
+        "current_price": 139.19000244140625,
+        "change_percent": 3.2490208160628273,
+        "volume": 369241900,
+        "pe_ratio": 33.78398
+      }
+    },
+    "Top 5 Mid Cap": {
+      "CRWD": {
+        "name": "CrowdStrike Holdings, Inc.",
+        "sector": "Technology",
+        "industry": "Software - Infrastructure",
+        "market_cap": 114277638144,
+        "current_price": 458.80999755859375,
+        "change_percent": -2.1372329630471256,
+        "volume": 3324000,
+        "pe_ratio": 107.449646
+      },
+      "SNOW": {
+        "name": "Snowflake Inc.",
+        "sector": "Technology",
+        "industry": "Software - Application",
+        "market_cap": 67502346240,
+        "current_price": 202.30999755859375,
+        "change_percent": -1.0225031312618706,
+        "volume": 3800900,
+        "pe_ratio": 217.53763
+      },
+      "ZM": {
+        "name": "Zoom Communications Inc.",
+        "sector": "Technology",
+        "industry": "Software - Application",
+        "market_cap": 24185688064,
+        "current_price": 79.94000244140625,
+        "change_percent": 0.338903324546809,
+        "volume": 1906400,
+        "pe_ratio": 15.111532
+      },
+      "DDOG": {
+        "name": "Datadog, Inc.",
+        "sector": "Technology",
+        "industry": "Software - Application",
+        "market_cap": 40406298624,
+        "current_price": 117.0,
+        "change_percent": 0.6018890196680932,
+        "volume": 3555700,
+        "pe_ratio": 57.635468
+      },
+      "NET": {
+        "name": "Cloudflare, Inc.",
+        "sector": "Technology",
+        "industry": "Software - Infrastructure",
+        "market_cap": 56899497984,
+        "current_price": 164.16000366210938,
+        "change_percent": 1.3458501000563232,
+        "volume": 3110500,
+        "pe_ratio": 190.88373
+      }
+    },
+    "Top 5 Small Cap": {
+      "SMCI": {
+        "name": "Super Micro Computer, Inc.",
+        "sector": "Technology",
+        "industry": "Computer Hardware",
+        "market_cap": 24559060992,
+        "current_price": 41.150001525878906,
+        "change_percent": -1.9304041379102184,
+        "volume": 35885100,
+        "pe_ratio": 9.70519
+      },
+      "IONQ": {
+        "name": "IonQ, Inc.",
+        "sector": "Technology",
+        "industry": "Computer Hardware",
+        "market_cap": 10704226304,
+        "current_price": 43.20000076293945,
+        "change_percent": -9.167368554366934,
+        "volume": 25706100,
+        "pe_ratio": -49.09091
+      },
+      "MARA": {
+        "name": "MARA Holdings, Inc.",
+        "sector": "Financial Services",
+        "industry": "Capital Markets",
+        "market_cap": 5141667840,
+        "current_price": 14.609999656677246,
+        "change_percent": -1.6823688141046764,
+        "volume": 26868600,
+        "pe_ratio": 365.25
+      },
+      "RIOT": {
+        "name": "Riot Platforms, Inc.",
+        "sector": "Financial Services",
+        "industry": "Capital Markets",
+        "market_cap": 2922419712,
+        "current_price": 8.180000305175781,
+        "change_percent": -2.386632536203491,
+        "volume": 31246500,
+        "pe_ratio": -24.058825
+      },
+      "COIN": {
+        "name": "Coinbase Global, Inc.",
+        "sector": "Financial Services",
+        "industry": "Financial Data & Stock Exchanges",
+        "market_cap": 63380791296,
+        "current_price": 248.83999633789062,
+        "change_percent": -2.1432211617189862,
+        "volume": 7673400,
+        "pe_ratio": 69.70308
+      }
+    }
+  }
+}

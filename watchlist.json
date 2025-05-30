@@ -1,0 +1,18 @@
+{
+  "SMCI": {
+    "symbol": "SMCI",
+    "added_date": "2025-05-27T21:21:26.803970",
+    "current_price": 41.56999969482422,
+    "last_sentiment": "Bullish",
+    "last_bullish_count": 3,
+    "last_bearish_count": 0,
+    "stop_loss": 38.24439971923828,
+    "target_1": 47.805499649047846,
+    "target_2": 54.04099960327149,
+    "atr_value": 3.1235712596348355,
+    "user_phone": null,
+    "user_email": "swamybj76@gmail.com",
+    "alerts_enabled": true,
+    "last_checked": "2025-05-27T21:21:26.803981"
+  }
+}
